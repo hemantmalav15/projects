@@ -1,0 +1,92 @@
+body{
+    background-image: url('/1.Project/image/bg.webp');
+    margin: 0;
+    height: 120vh;
+}
+header{
+    color: white;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    display: inline-block;
+    width: 150px;
+    font-size: larger;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.logo:hover{
+    color: salmon;
+}
+.navbar{
+    width: 600px;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+}
+.navbar > a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    transition: all 0.5s;
+}
+.navbar > a:hover{
+    color: salmon;
+}
+#home{
+    color:salmon
+}
+.heading{
+    color: salmon;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    width: 500px;
+}
+.heading+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    width: 500px;
+    position: relative;
+    top: 20px;
+    left: 75px;
+}
+.heading+h3+p{
+    color: #ad9c9c;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    font-size: larger;
+    font-family: 'Roboto';
+    font-style: italic;
+    width: 380px;
+}
+.btn{
+    width: 120px;
+    padding: 10px;
+    border: none;
+    background-color: salmon;
+    color: white;
+    font-family: 'Roboto';
+    border: 2px solid salmon;
+    transition: all 0.5s;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(248, 245, 245, 0);
+}
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
